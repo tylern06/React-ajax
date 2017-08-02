@@ -1,0 +1,16 @@
+#myNav {
+  margin-bottom: 0px;
+  background-color: #774f38;
+  height: 10vh; }
+
+#myNav a {
+  font-size: 24px; }
+
+.nav-bar li {
+  display: inline;
+  padding: 5px;
+  margin: 20px;
+  line-height: 10vh; }
+
+.nav-bar a {
+  color: #ece5ce !important; }

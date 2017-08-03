@@ -19,7 +19,10 @@ class Header extends React.Component {
             <Link to="/users">Get (User List)</Link>
           </li>
           <li>
-            <Link to="/login">Post (Login)</Link>
+            <Link to="/add-item">Add Item</Link>
+          </li>
+          <li>
+            {/* <Link to="/login">Post (Login)</Link> */}
           </li>
         </ul>
       </div>

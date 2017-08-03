@@ -34,7 +34,7 @@ class Film extends React.Component {
       cancelToken: this.cancelToken.token
     })
       .then(data => {
-        console.log("data", data.data.results);
+        // console.log("data", data.data.results);
         this.setState({
           movies: data.data.results
         });

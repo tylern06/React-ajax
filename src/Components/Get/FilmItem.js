@@ -3,7 +3,7 @@ import React from "react";
 class FilmItem extends React.Component {
   constructor(props) {
     super(props);
-    console.log(this.props.movies);
+    // console.log(this.props.movies);
     this.state = { movies: this.props.movies };
   }
   render() {

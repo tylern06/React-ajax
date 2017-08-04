@@ -19,7 +19,9 @@ app.get("/", function(req, res) {
   // res.sendFile(path.join(__dirname + "/index.html"));
 });
 
+//allows used of bluebird Promises
 mongoose.Promise = require("bluebird");
+// mongoose.Promise = Promise;
 
 //connect to mongoose
 mongoose

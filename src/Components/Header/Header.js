@@ -16,7 +16,7 @@ class Header extends React.Component {
             <Link to="/post">Post (User Reg)</Link>
           </li>
           <li>
-            <Link to="/users">Get (User List)</Link>
+            <Link to="/items">Get Items</Link>
           </li>
           <li>
             <Link to="/add-item">Add Item</Link>

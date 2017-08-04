@@ -48,7 +48,7 @@ router.post("/update/:id", function(req, res) {
       item
         .save()
         .then(item => {
-          res.json("Update complete");
+          res.json({ data: req.body.item, status: "Update complete" });
         })
         .catch(err => {
           res.status(400).send("unable to update the database");
